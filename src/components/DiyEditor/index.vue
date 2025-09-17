@@ -172,6 +172,7 @@
       <div class="flex flex-col">
         <el-text>手机扫码预览</el-text>
         <Qrcode :text="previewUrl" logo="/logo.gif" />
+        <!-- <Qrcode :text="previewUrl" logo="/QrcodeLogo.png" /> 这里直接把所有 logo.gif都换为这个图标了 -->
       </div>
     </div>
   </Dialog>
